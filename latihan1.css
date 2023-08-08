@@ -1,0 +1,57 @@
+.container {
+    display: -ms-flexbox;
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        column-count: 1;
+    }
+  }
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+    .container {
+      column-count: 2;
+      column-gap: 0em;
+    }
+  }
+@media only screen and (min-width: 960px) {
+    .container {
+        column-count: 3;
+        column-gap: 0em;
+    }
+  }
+
+.content-red {
+    background-color: red;
+    color: red;
+    width: 100%;
+}
+
+.content-green {
+    background-color: green;
+    color: green;
+    width: 100%;
+}
+
+.content-blue {
+    background-color: blue;
+    color: blue;
+    width: 100%;
+}
+
+.content-yellow {
+    background-color: yellow;
+    color: yellow;
+    width: 100%;
+}
+
+.content-purple {
+    background-color: purple;
+    color: purple;
+    width: 100%;
+}
+
+.content-grey {
+    background-color: grey;
+    color: grey;
+    width: 100%;
+}
